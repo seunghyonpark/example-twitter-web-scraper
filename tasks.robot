@@ -8,7 +8,7 @@ Library             RPA.RobotLogListener
 
 
 *** Variables ***
-${USER_NAME}            RobocorpInc
+${USER_NAME}            elonmusk
 ${NUMBER_OF_TWEETS}     3
 ${TWEET_DIRECTORY}      ${CURDIR}${/}output${/}tweets/${USER_NAME}
 ${TWEETS_LOCATOR}       xpath://article[descendant::span[contains(text(), "\@${USER_NAME}")]]
