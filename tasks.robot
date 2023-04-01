@@ -75,3 +75,4 @@ Store the tweets
         Create File    ${text_file}    ${text}    overwrite=True
         ${index}=    Evaluate    ${index} + 1
     END
+    
